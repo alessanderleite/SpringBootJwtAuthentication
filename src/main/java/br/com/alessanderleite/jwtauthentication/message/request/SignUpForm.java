@@ -1,4 +1,4 @@
-package br.com.alessanderleite.jwtauthentication.message.response;
+package br.com.alessanderleite.jwtauthentication.message.request;
 
 import java.util.Set;
 
