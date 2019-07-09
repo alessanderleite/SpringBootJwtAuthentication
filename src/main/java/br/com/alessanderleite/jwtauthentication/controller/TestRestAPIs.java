@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestRestAPIs {
 	
 	@GetMapping("/api/test/user")
-	@PreAuthorize("hasRole('User') or has('ADMIN')")
+	@PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
 	public String userAccess() {
 		return ">>> User Contents";
 	}
